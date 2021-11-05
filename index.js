@@ -7,7 +7,7 @@ window.onload = () => {
   const submitButton = document.getElementById("submit-button").addEventListener("click", event => {
     event.preventDefault(),
     // this next line calls the sayHi function & passes it the value of the name input on the form from the target value of the event that's called when the form is submitted.
-    sayHi(event.target.form.name.value)
+    sayHi = (event.target.form.name.value)
   })
 }
 
@@ -16,6 +16,7 @@ window.onload = () => {
 // 2 - This function is called when a user clicks on the button in the HTML. 
 // Can you make the text "hello" log to the console?
 const sayHello = () => {
+  console.log("Hello")
   return "Hello!"
 }
 
@@ -36,7 +37,23 @@ const object1 = {
 
 // 3.5 - Can you add statements below to log to the console each of the variables above?
 
+// const arr1 = () => {
+//   console.log("2, 4, 6, 77, 90, 12, 1")
+//   return "2, 4, 6, 77, 90, 12, 1"
+// }
+// const num1 = () => {
+//   console.log("8039")
+//   return "8039"
+// }
 
+// const name1 = () => {
+//   console.log("Chrome Console")
+//   return "Chrome Sonsole"
+// }
+// const Object1 = () => {
+//   console.log("")
+//   return ""
+// }
 // This variable will hold text values for us
 let inputFieldValue = ""
 
