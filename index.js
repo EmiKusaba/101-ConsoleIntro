@@ -37,23 +37,7 @@ const object1 = {
 
 // 3.5 - Can you add statements below to log to the console each of the variables above?
 
-// const arr1 = () => {
-//   console.log("2, 4, 6, 77, 90, 12, 1")
-//   return "2, 4, 6, 77, 90, 12, 1"
-// }
-// const num1 = () => {
-//   console.log("8039")
-//   return "8039"
-// }
 
-// const name1 = () => {
-//   console.log("Chrome Console")
-//   return "Chrome Sonsole"
-// }
-// const Object1 = () => {
-//   console.log("")
-//   return ""
-// }
 // This variable will hold text values for us
 let inputFieldValue = ""
 
