@@ -7,7 +7,7 @@ window.onload = () => {
   const submitButton = document.getElementById("submit-button").addEventListener("click", event => {
     event.preventDefault(),
     // this next line calls the sayHi function & passes it the value of the name input on the form from the target value of the event that's called when the form is submitted.
-    sayHi = (event.target.form.name.value)
+    test = (event.target.form.name.value)
   })
 }
 
@@ -67,10 +67,10 @@ const setInputFieldValue = (val) => {
 
 
 // 5 - This function uses the field input to say hello to a name given by the user.
-const sayHi = (data) => {
-  greetingString = "Hi, " + data + "!"
-
-  return console.log(greetingString)
+const sayHi = () => {
+  let greetingString = "Hi, " + inputFieldValue + "!"
+  console.log(greetingString)
+  return greetingString
 }
 
 
